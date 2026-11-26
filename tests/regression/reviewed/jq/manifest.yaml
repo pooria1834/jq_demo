@@ -1,0 +1,23 @@
+- id: generated-a0a0eab8774f-a7785c40e10a-base-checked-a792b5c617f
+  kind: boundary
+  input: a0a0eab8774f.bin
+  expected_exit: 0
+  expected_stdout: generated-a0a0eab8774f-a7785c40e10a-base-checked-a792b5c617f.out
+  preserved_signature: a7785c40e10a4d9de659438a1f1aea5f8208fbb8c650c97dce013b067956925e
+  input_sha256: a0a0eab8774f09e6bda331df64941e14d35b09c802f2b746e93cb8e15100ff56
+  witness_role: base
+  witness_mode: checked
+  args:
+  - 1 != .
+- id: generated-afcb0036e0fd-d98947bde230-base-checked-aa9c7a2000b
+  kind: boundary
+  input: afcb0036e0fd.bin
+  expected_exit: 0
+  expected_stdout: generated-afcb0036e0fd-d98947bde230-base-checked-aa9c7a2000b.out
+  preserved_signature: d98947bde2308575d3b0658d195dac0cdcfd7aca0757bae2cf284d5245a56da2
+  input_sha256: afcb0036e0fd7bc66c22c65bc1005138b0e01d22506a07b909866a32fd070540
+  witness_role: base
+  witness_mode: checked
+  args:
+  - -c
+  - .
